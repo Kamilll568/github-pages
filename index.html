@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Repetytorium Ósmoklasisty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Repetytorium Ósmoklasisty – Macmillan Education</h1>
+    <p>Wybierz dział, aby rozpocząć naukę lub quiz.</p>
+  </header>
+
+  <main>
+    <section id="menu">
+      <button onclick="loadSection('czlowiek')">Człowiek</button>
+      <button onclick="loadSection('dom')">Dom</button>
+      <button onclick="loadSection('szkola')">Szkoła</button>
+      <button onclick="loadSection('praca')">Praca</button>
+      <button onclick="loadSection('zycie')">Życie rodzinne i towarzyskie</button>
+      <button onclick="loadSection('zywienie')">Żywienie</button>
+      <button onclick="loadSection('zakupy')">Zakupy i usługi</button>
+      <button onclick="loadSection('podrozowanie')">Podróżowanie i turystyka</button>
+      <button onclick="loadSection('kultura')">Kultura</button>
+      <button onclick="loadSection('sport')">Sport</button>
+      <button onclick="loadSection('zdrowie')">Zdrowie</button>
+      <button onclick="loadSection('nauka')">Nauka i technika</button>
+      <button onclick="loadSection('swiat')">Świat przyrody</button>
+      <button onclick="loadSection('panstwo')">Państwo i społeczeństwo</button>
+    </section>
+
+    <section id="content">
+      <h2 id="section-title">Wybierz dział</h2>
+      <div id="vocabulary"></div>
+      <div id="quiz"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Strona edukacyjna do nauki angielskiego – egzamin ósmoklasisty</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
